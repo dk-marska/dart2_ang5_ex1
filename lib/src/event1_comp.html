@@ -1,0 +1,24 @@
+
+    <p>
+        <material-fab mini raised (trigger)="eventAdd()">
+        <material-icon icon="add"></material-icon>
+        </material-fab>
+        <material-button #click1 name="click4" (trigger)="eventClick1()">Click 1</material-button>
+        <material-button #click2 raised (trigger)="eventClick2(click1)">Click 2</material-button>
+        <material-button #click3 class="dark-theme" raised dense (trigger)="eventClick3()">Click 3</material-button>
+        <material-button #click4 class="red" raised dense>Click 4</material-button>
+        <material-button #click5 raised dense>Click 5</material-button>
+    </p>
+
+<section>
+    <div flex>
+        <div card>
+            <p>Light Theme</p>
+            <buttons></buttons>
+        </div>
+        <div card class="dark-theme" darkTheme>
+            <p>Dark Theme</p>
+            <buttons></buttons>
+        </div>
+    </div>
+</section>

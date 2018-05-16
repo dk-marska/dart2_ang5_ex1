@@ -8,6 +8,8 @@ import 'package:angular_components/angular_components.dart';
 
 @Component(
     selector: 'event1-comp',
+    templateUrl: 'event1_comp.html',
+    /*
     template: ''
     '<p>'
     '<material-fab mini raised '
@@ -20,11 +22,13 @@ import 'package:angular_components/angular_components.dart';
     '<material-button #click2 raised (trigger)="eventClick2(click1)">Click 2</material-button>'
     '<material-button #click3 material-button.red darkTheme raised dense (trigger)="eventClick3()">Click 3</material-button>'
     '</p>',
+    */
   styleUrls: ['event1_comp.css'],
   directives: [
     MaterialCheckboxComponent,
     MaterialFabComponent,
     MaterialIconComponent,
+    MaterialButtonComponent,
     materialInputDirectives,
     NgFor,
     NgIf,
