@@ -1,6 +1,7 @@
 import 'package:angular/angular.dart';
 import 'src/todo_list/todo_list_component.dart';
-import 'src/show_variable.dart';
+import 'src/variable_comp.dart';
+import 'src/bind_comp.dart';
 
 @Component(
   selector: 'application',
@@ -8,7 +9,8 @@ import 'src/show_variable.dart';
   templateUrl: 'application.html',
   directives: [
     TodoListComponent,
-    ShowVariable
+    VariableComp,
+    BindComp,
   ],
 )
 class AppComponent {

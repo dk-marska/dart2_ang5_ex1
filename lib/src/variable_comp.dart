@@ -1,7 +1,7 @@
 import 'package:angular/angular.dart';
 
 @Component(
-  selector: 'show-variable',
+  selector: 'variable-comp',
   template: ''
       '<p>'
       '{{textOne}}'
@@ -13,7 +13,7 @@ import 'package:angular/angular.dart';
   //templateUrl: 'todo_list_component.html',
   //styleUrls: [''],
 )
-class ShowVariable {
+class VariableComp {
   final String textOne = "This is text one.";
 
   String get textTwo => "This is text two.";
