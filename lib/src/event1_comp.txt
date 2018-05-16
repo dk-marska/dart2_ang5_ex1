@@ -1,0 +1,28 @@
+  selector: 'event1-comp', template: ''
+    '<p>'
+    '<material-fab mini raised '
+      '(trigger)="eventAdd()" '
+      //'[disabled]="newTodo.isEmpty"> '
+    '>'
+    '<material-icon icon="add"></material-icon>'
+    '</material-fab>'
+    '<material-button #click1 name="click4" (trigger)="eventClick1()">Click 1</material-button>'
+    '<material-button #click2 raised (trigger)="eventClick2(click1)">Click 2</material-button>'
+    '<material-button #click3 material-button.red darkTheme raised dense (trigger)="eventClick3()">Click 3</material-button>'
+    '</p>',
+
+  templateUrl: 'todo_list_component.html',
+  //styleUrls: ['event1_comp.scss'],
+  //styleUrls: const ['material_button_example.scss.css'],
+  styleUrls: const ['event1_comp.scss.css'],
+  //scss
+  directives: [
+    MaterialCheckboxComponent,
+    MaterialFabComponent,
+    MaterialIconComponent,
+    MaterialButtonComponent,
+    materialInputDirectives,
+    NgFor,
+    NgIf,
+  ],
+)

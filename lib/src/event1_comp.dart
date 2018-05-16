@@ -3,33 +3,32 @@ import 'package:angular_components/material_icon/material_icon.dart';
 import 'package:angular_components/material_input/material_input.dart';
 import 'package:angular_components/material_button/material_fab.dart';
 import 'package:angular_components/material_checkbox/material_checkbox.dart';
+import 'package:angular_components/material_button/material_button.dart';
 import 'package:angular_components/angular_components.dart';
 
 @Component(
-  selector: 'event1-comp', template: ''
+    selector: 'event1-comp',
+    template: ''
     '<p>'
     '<material-fab mini raised '
-      '(trigger)="eventAdd()" '
-      //'[disabled]="newTodo.isEmpty"> '
+    '(trigger)="eventAdd()" '
+    //'[disabled]="newTodo.isEmpty"> '
     '>'
     '<material-icon icon="add"></material-icon>'
     '</material-fab>'
     '<material-button #click1 name="click4" (trigger)="eventClick1()">Click 1</material-button>'
     '<material-button #click2 raised (trigger)="eventClick2(click1)">Click 2</material-button>'
-    '<material-button #click3 raised dense (trigger)="eventClick3()">Click 3</material-button>'
+    '<material-button #click3 material-button.red darkTheme raised dense (trigger)="eventClick3()">Click 3</material-button>'
     '</p>',
+  styleUrls: ['event1_comp.css'],
   directives: [
     MaterialCheckboxComponent,
     MaterialFabComponent,
     MaterialIconComponent,
-    MaterialButtonComponent,
     materialInputDirectives,
     NgFor,
     NgIf,
-  ],
-  //templateUrl: 'todo_list_component.html',
-  styleUrls: ['event1_comp.css'],
-  //scss
+  ]
 )
 class Event1Comp {
   @ViewChild('click1') MaterialButtonComponent vcClick1;
