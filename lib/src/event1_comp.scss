@@ -1,0 +1,5 @@
+@import 'path/to/material_button.scss';
+
+/* Make #myButton green with yellow text */
+@include button-background-color('#click1', green);
+@include button-color('#click1', yellow);

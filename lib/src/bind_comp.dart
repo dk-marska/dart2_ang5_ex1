@@ -7,7 +7,7 @@ import 'package:angular/angular.dart';
       '<input value="inputOne">&nbsp;' // Static input, hardcoded HTML.
       '<input [value]="inputTwo">' // Getting data from variable.
       '<br>'
-      '</p>',
+      '</p>'
   //templateUrl: 'todo_list_component.html',
   //styleUrls: [''],
 )
