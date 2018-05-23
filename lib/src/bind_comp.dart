@@ -1,4 +1,5 @@
 import 'package:angular/angular.dart';
+import 'package:angular_components/material_button/material_button.dart';
 
 @Component(
   selector: 'bind-comp',
