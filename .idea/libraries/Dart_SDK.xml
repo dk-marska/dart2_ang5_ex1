@@ -1,25 +1,25 @@
 <component name="libraryTable">
   <library name="Dart SDK">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/async" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/cli" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/collection" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/convert" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/core" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/developer" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/html" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/indexed_db" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/io" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/isolate" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/js" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/js_util" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/math" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/mirrors" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/svg" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/typed_data" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/web_audio" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/web_gl" />
-      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.55.0/lib/web_sql" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/async" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/cli" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/collection" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/convert" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/core" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/developer" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/html" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/indexed_db" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/io" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/isolate" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/js" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/js_util" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/math" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/mirrors" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/svg" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/typed_data" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/web_audio" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/web_gl" />
+      <root url="file://$PROJECT_DIR$/../../System/dart-sdk-2.0.0-dev.57.0/lib/web_sql" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
