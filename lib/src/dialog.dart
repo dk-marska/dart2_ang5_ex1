@@ -10,8 +10,9 @@ import 'package:angular_components/material_tooltip/material_tooltip.dart';
 //import 'package:angular_gallery_section/annotation/gallery_section_config.dart';
 
 @Component(
-  selector: 'bind-comp',
+  selector: 'dialog-comp',
   templateUrl: 'dialog.html',
+  //template: 'PowerMax',
   //styleUrls: ['dialog.html'],
   directives: const [
     AutoDismissDirective,
@@ -22,13 +23,34 @@ import 'package:angular_components/material_tooltip/material_tooltip.dart';
     MaterialDialogComponent,
     ModalComponent,
     NgFor,
-    NgIf
+    NgIf,
   ],
+  providers: const [overlayBindings],
 )
 class DialogComp {
   bool showMaxHeightDialog = false;
 
+  String myText = "n/a";
 
+  DialogComp() {}
 
+  final maxHeightDialogLines = <String>[];
+  String dialogWithErrorErrorMessage;
 
+  void addMaxHeightDialogLine() {
+    maxHeightDialogLines.add('This is some text!');
+
+  }
+
+  void removeMaxHeightDialogLine() {
+    maxHeightDialogLines.removeLast();
+  }
+
+  void toggleErrorMessage() {
+    if (dialogWithErrorErrorMessage == null) {
+      dialogWithErrorErrorMessage = 'Error message.';
+    } else {
+      dialogWithErrorErrorMessage = null;
+    }
+  }
 }

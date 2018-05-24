@@ -1,5 +1,33 @@
+<p>My dialog -> {{myText}}</p>
+
 <material-button (trigger)="showMaxHeightDialog = true"
                  [disabled]="showMaxHeightDialog"
+                 [(value)]="myText"
                  raised>
   Open Max Height Dialog
 </material-button>
+<input #ref2 [(value)]="myText" type="text">
+
+<modal [visible]="showMaxHeightDialog">
+  <material-dialog class="max-height-dialog">
+
+    <h1 header>Dialog title</h1>
+
+    <p *ngFor="let maxHeightDialogLine of maxHeightDialogLines">
+      {{maxHeightDialogLine}}
+    </p>
+    <input #ref1 [(value)]="myText" type="text">
+
+    <div footer>
+      <material-button (trigger)="removeMaxHeightDialogLine()"
+                       [disabled]="maxHeightDialogLines.isEmpty">
+        Remove Some Text
+      </material-button>
+      <material-button (trigger)="addMaxHeightDialogLine()">
+        Add Some Text
+      </material-button>
+      <material-button autoFocus (trigger)="showMaxHeightDialog = false">Close</material-button>
+    </div>
+
+  </material-dialog>
+</modal>
