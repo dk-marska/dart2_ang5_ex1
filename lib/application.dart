@@ -4,6 +4,7 @@ import 'src/variable_comp.dart';
 import 'src/bind_comp.dart';
 import 'src/event1_comp.dart';
 import 'src/inner_content.dart';
+import 'src/dialog.dart';
 
 @Component(
   selector: 'application',
@@ -15,6 +16,7 @@ import 'src/inner_content.dart';
     BindComp,
     Event1Comp,
     InnerContentComp,
+    DialogComp,
     MaterialButtonComponent,
   ],
 )

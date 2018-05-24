@@ -1,12 +1,10 @@
 import 'package:angular/angular.dart';
-import 'package:angular_components/material_button/material_button.dart';
 
 @Component(
-  selector: 'bind-comp',
+  selector: 'dialog-comp',
   template: ''
       '<p>'
-      '<input value="inputOne">&nbsp;' // Static input, hardcoded HTML.
-      '<input [value]="inputTwo">' // Getting data from variable.
+      'DIALOG'
       '<br>'
       '</p>'
   //templateUrl: 'todo_list_component.html',
