@@ -8,6 +8,7 @@ dependencies:
   angular: ^5.0.0-alpha+12
   angular_components: ^0.9.0-alpha+12
   build_config: ^0.2.6
+  logging: "^0.11.3+1"
   #angular_gallery_section:
     #path: ../../angular_gallery_section
 
